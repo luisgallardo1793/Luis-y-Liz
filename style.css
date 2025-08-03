@@ -256,7 +256,7 @@ body
 }
 
 .regalos{
-  padding:20px;
+  padding:40px;
   margin: 20px;
   font-size: 36px;
   text-align: center;
@@ -278,7 +278,7 @@ body
 }
 .asis{
   margin: 20px;
-  padding: 20px;
+  padding: 40px;
   font-size: 36px;
   text-align: center;
   font-family: cinzel decorative;
@@ -288,10 +288,10 @@ body
   border-bottom-left-radius: 40px;
 }
 .asis a{
-  border:1px solid #2a2a2a;
+  border:3px solid #2a2a2a;
   background-color: #af9477;
   border-radius: 6px;
-  padding: 5px;
+  padding: 10px;
   color: #2a2a2a;
   text-decoration: none;
   box-shadow: 0px 0px 8px;
@@ -364,5 +364,6 @@ section article:hover
 {
     box-shadow: .5rem 0.5rem .6rem #364552;
 }
+
 
 
