@@ -128,8 +128,7 @@ body
 }
 
 .padres{
-
-  padding-top: 100px;
+  padding-top: 200px;
   font-size: 36px;
   text-align: center;
   font-family: cinzel decorative;
@@ -362,6 +361,7 @@ section article:hover
 {
     box-shadow: .5rem 0.5rem .6rem #364552;
 }
+
 
 
 
