@@ -247,6 +247,7 @@ body
 }
 .vestimenta{
   padding-top:200px;
+  padding-bottom:200px;
   margin: 20px;
   font-family: cinzel decorative;
   font-size: 36px;
@@ -255,7 +256,6 @@ body
 }
 
 .regalos{
-  padding-top: 200px;
   margin: 20px;
   font-size: 36px;
   text-align: center;
@@ -363,3 +363,4 @@ section article:hover
 {
     box-shadow: .5rem 0.5rem .6rem #364552;
 }
+
