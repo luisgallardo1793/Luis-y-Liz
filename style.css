@@ -265,6 +265,7 @@ body
   box-shadow: 1px 1px 8px;
   border-top-right-radius: 40px;
   border-bottom-left-radius: 40px;
+  padding-bottom:200px;
 }
 
 .regalos a{
@@ -365,6 +366,7 @@ section article:hover
 {
     box-shadow: .5rem 0.5rem .6rem #364552;
 }
+
 
 
 
