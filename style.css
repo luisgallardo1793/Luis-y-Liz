@@ -1,165 +1,365 @@
-* {
-      box-sizing: border-box;
-    }
-    html, body {
-      margin: 0;
-      padding: 0;
-      font-family: Oswald, Arial, Helvetica, sans-serif;
-      background: linear-gradient(to top, #f9ecd9 0%, #ffffff 50%);
-      overflow-x: hidden;
-    }
-    .hoja1, .hoja2 {
-      display: none;
-    }
-    .nombres {
-      max-width: 100%;
-      height: auto;
-      display: block;
-      margin: auto;
-    }
-    .imagen-evento {
-      width: 100%;
-      height: auto;
-      border-radius: 20px;
-      box-shadow: 0px 0px 8px;
-    }
-    #title {
-      position: relative;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-image: url('images/4.jpg');
-      background-size: cover;
-      background-position: center;
-      background-attachment: scroll;
-      height: 600px;
-      overflow: hidden;
-    }
-    #title::after {
-      content: "";
-      position: absolute;
-      top: 0; left: 0; right: 0; bottom: 0;
-      background: linear-gradient(to bottom, rgba(0,0,0,0) 85%, #ffffff 100%);
-      pointer-events: none;
-      z-index: 1;
-    }
-    .initialText {
-      color: #8c6c4a;
-      font-family: 'Dancing Script', cursive;
-      text-align: center;
-      font-size: 40px;
-      padding: 0 10px;
-    }
-    .tiempo, .novia, .novio, .regalos, .asis, .vestimenta {
-      box-shadow: 1px 1px 8px;
-      border-top-right-radius: 40px;
-      border-bottom-left-radius: 40px;
-      margin: 20px;
-      padding: 20px;
-      text-align: center;
-      font-family: 'Prata';
-      color: #8c6c4a;
-    }
-    #cuenta {
-      background-color: #ffffff;
-      font-size: 14px;
-      padding: 20px;
-      font-family: 'Prata';
-      color: #8c6c4a;
-      margin: 10px auto;
-      border-radius: 20px;
-      display: flex;
-      justify-content: center;
-      gap: 25px;
-      flex-wrap: wrap;
-    }
-    .unidad, .unidad1 {
-      text-align: center;
-      padding: 10px;
-      min-width: 60px;
-    }
-    .unidad span, .unidad1 span {
-      font-size: 24px;
-      display: block;
-    }
-    .label {
-      font-size: 14px;
-      color: #555;
-    }
-    .lugares, .padres {
-      font-family: 'Cinzel Decorative';
-      color: #8c6c4a;
-      text-align: center;
-      padding: 10px;
-    }
-    .lugares a, .regalos a, .asis a {
-      border: 1px solid #2a2a2a;
-      background-color: #af9477;
-      border-radius: 6px;
-      padding: 10px;
-      color: #2a2a2a;
-      text-decoration: none;
-      box-shadow: 0px 0px 8px;
-      display: inline-block;
-      margin: 5px;
-    }
-    .galeria {
-      text-align: center;
-      margin: 10px;
-      padding-top: 20px;
-    }
-    .galeria h2 {
-      font-family: 'Cinzel Decorative';
-      font-size: 18px;
-      margin-bottom: 20px;
-      color: #8c6c4a;
-    }
-    .slider {
-      position: relative;
-      width: 90%;
-      max-width: 700px;
-      margin: auto;
-      overflow: hidden;
-      border-radius: 15px;
-      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
-    }
-    .slider-track {
-      display: flex;
-      transition: transform 0.5s ease;
-    }
-    .slider-track img {
-      width: 100%;
-      flex-shrink: 0;
-      object-fit: cover;
-      border-radius: 15px;
-    }
-    .prev, .next {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      font-size: 24px;
-      background-color: rgba(255, 255, 255, 0.7);
-      border: none;
-      padding: 8px;
-      cursor: pointer;
-      color: #731e3f;
-      border-radius: 50%;
-      z-index: 1;
-      transition: background 0.3s ease;
-    }
-    .prev:hover, .next:hover {
-      background-color: rgba(255, 255, 255, 0.9);
-    }
-    .prev { left: 10px; }
-    .next { right: 10px; }
-    @media screen and (max-width: 600px) {
-      .initialText { font-size: 14px; }
-      .unidad, .unidad1 { min-width: 45px; padding: 5px; }
-      .unidad span, .unidad1 span { font-size: 18px; }
-      .prev, .next { font-size: 18px; padding: 6px; }
-      .tiempo, .novia, .novio, .regalos, .asis, .vestimenta {
-        padding: 15px;
-        margin: 10px;
-      }
-    }
+html
+{
+    font-family: oswald, Arial, Helvetica, sans-serif;
+}
+body
+{
+    margin:0;
+    background-color: #ffffff;
+    background: linear-gradient(to top, #f9ecd9 0%, #ffffff 50%);
+}
 
+.hoja1 {
+  background-image: url('images/hojas-2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 680px;  /* posición fija en píxeles dentro del contenedor relativo */
+  left: 220px;
+  z-index: 10;
+}
+.hoja2 {
+  background-image: url('images/hojas-1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: .2;
+  width: 1200px;
+  height: 700px;
+  position: absolute;
+  top: 1400px;  /* posición fija en píxeles dentro del contenedor relativo */
+  left: 00px;
+  z-index: 10;
+}
+
+
+
+
+#title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('images/4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* <-- Fija la imagen */
+    height: 600px;
+    overflow: hidden;
+}
+
+#title::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 85%, #ffffff 100%);
+    pointer-events: none;
+    z-index: 1;
+}
+
+#title > * {
+  position: relative;
+  z-index: 2;
+}
+.inicio{
+  background-color: #ffffff;
+}
+.initialText{
+    color: #8c6c4a;
+    font-family: Dancing script, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 14px;
+}
+.tiempo{
+  box-shadow:0px 0px 2px;
+  color: #8c6c4a;
+  margin: 0px;
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+  font-family: prata;
+  box-shadow: 1px 1px 8px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  margin: 20px;
+}
+#cuenta {
+    background-color: #ffffff;
+    font-size: 12px;
+    padding: 20px;
+    font-family: prata;
+    color: #8c6c4a;
+    margin-bottom: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    font-weight: 400;
+} 
+
+.unidad {
+  text-align: center;
+  padding: 10px;
+  min-width: 60px;
+  justify-content: center;
+  border-left: 1px solid #8c6c4a;
+}
+.unidad1 {
+  text-align: center;
+  padding: 10px;
+  min-width: 60px;
+}
+.unidad span {
+  text-align: center;
+  font-size: 24px;
+  display: block;
+}
+.unidad1 span {
+  text-align: center;
+  font-size: 24px;
+  display: block;
+}
+.label {
+  font-size: 14px;
+  margin-top: 5px;
+  font-weight: 400;
+  color: #555;
+}
+
+.padres{
+  padding: 2px;
+  font-size: 12px;
+  text-align: center;
+  font-family: cinzel decorative;
+  color: #8c6c4a;
+}
+.novia{
+  padding:40px;
+  box-shadow: 1px 1px 8px;
+  margin: 20px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+.novia h2{
+  font-size: 12px;
+}
+.novia h3{
+  font-size: 14px;
+}
+.novio{
+  padding:40px;
+  margin: 20px;
+  box-shadow: 1px 1px 8px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+.novio h2{
+  font-size: 12px;
+}
+.novio h3{
+  font-size: 14px;
+}
+
+.lugares{
+  padding: 2px;
+  font-size: 12px;
+  text-align: center;
+  font-family: cinzel decorative;
+  color: #8c6c4a;
+}
+.iglesia{
+  padding: 30px;
+}
+.lugares a{
+  border:1px solid #2a2a2a;
+  background-color: #af9477;
+  border-radius: 6px;
+  padding: 10px;
+  color: #2a2a2a;
+  text-decoration: none;
+  box-shadow: 0px 0px 8px;
+}
+.lugares img{
+  border-radius: 20px;
+  box-shadow: 0px 0px 8px;
+}
+.galeria {
+  text-align: center;
+  margin: 10px;
+  padding-top: 20px;
+}
+
+.galeria h2 {
+  font-family: cinzel decorative;
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #8c6c4a;
+}
+
+.slider {
+  position: relative;
+  width: 90%;
+  max-width: 700px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.slider-track {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slider-track img {
+  width: 100%;
+  flex-shrink: 0;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  color: #731e3f;
+  border-radius: 50%;
+  z-index: 1;
+  transition: background 0.3s ease;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.prev {
+  left: 10px;
+}
+.next {
+  right: 10px;
+}
+.vestimenta{
+  padding: 20px;
+  margin: 20px;
+  font-family: cinzel decorative;
+  font-size: 12px;
+  color: #8c6c4a;
+  text-align: center;
+}
+
+.regalos{
+  margin: 20px;
+  padding: 20px;
+  font-size: 12px;
+  text-align: center;
+  font-family: cinzel decorative;
+  color: #8c6c4a;
+  box-shadow: 1px 1px 8px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.regalos a{
+  border:1px solid #2a2a2a;
+  background-color: #af9477;
+  border-radius: 6px;
+  padding: 10px;
+  color: #2a2a2a;
+  text-decoration: none;
+  box-shadow: 0px 0px 8px;
+}
+.asis{
+  margin: 20px;
+  padding: 20px;
+  font-size: 12px;
+  text-align: center;
+  font-family: cinzel decorative;
+  color: #8c6c4a;
+  box-shadow: 1px 1px 8px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+.asis a{
+  border:1px solid #2a2a2a;
+  background-color: #af9477;
+  border-radius: 6px;
+  padding: 5px;
+  color: #2a2a2a;
+  text-decoration: none;
+  box-shadow: 0px 0px 8px;
+}
+.container
+{
+  position: relative;
+    z-index: 1;
+    width: 402px;
+    margin: 0 auto;
+}
+
+.nombres {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+} 
+
+/* Estilo general de los h1 */
+.nombres h1 {
+  font-size: 100px;
+  margin: 0;
+  position: absolute;         /* Necesario para posicionarlos individualmente */
+}
+
+/* Posicionamiento en diagonal */
+.h1-1 {
+  top: 0;
+  left: 0;
+}
+
+.h1-2 {
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.h1-3 {
+  top: 200px;
+  right: 0;
+}
+.casamos{
+    color: #2a2a2a;
+    font-weight: 100;
+    text-align: center;
+    margin-top: -20px;
+    font-size: 15px;
+}
+
+
+
+section article
+{
+    transition: box-shadow 0.3s ease;
+    background-color: #f9ecd9;
+    margin: 1rem 0;
+    border: 1px solid #364552;
+    border-radius: .5rem;
+    padding:0.5rem 0;
+    cursor: pointer;
+}
+
+section article h2, section article p, section article h3
+{
+    margin: 1rem;
+}
+
+section article:hover
+{
+    box-shadow: .5rem 0.5rem .6rem #364552;
+}
