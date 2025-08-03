@@ -363,65 +363,6 @@ section article:hover
 {
     box-shadow: .5rem 0.5rem .6rem #364552;
 }
-@media screen and (max-width: 600px) {
-  body {
-    font-size: 14px;
-  }
 
-  .initialText {
-    font-size: 12px;
-    padding: 0 10px;
-  }
 
-  .nombres {
-    width: 100%;
-    height: auto;
-  }
-
-  #cuenta {
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-
-  .unidad,
-  .unidad1 {
-    min-width: 45px;
-    padding: 5px;
-  }
-
-  .unidad span,
-  .unidad1 span {
-    font-size: 18px;
-  }
-
-  .novia, .novio, .regalos, .asis, .tiempo {
-    padding: 20px;
-    margin: 10px;
-  }
-
-  .iglesia img,
-  .salon img {
-    width: 100% !important;
-    height: auto;
-  }
-
-  .galeria .slider {
-    width: 100%;
-  }
-
-  .vestimenta, .lugares, .padres {
-    padding: 10px;
-    font-size: 14px;
-  }
-
-  .prev, .next {
-    font-size: 20px;
-    padding: 5px;
-  }
-
-  .hoja1,
-  .hoja2 {
-    display: none;
-  }
-}
 
