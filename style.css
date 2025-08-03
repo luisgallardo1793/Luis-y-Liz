@@ -46,7 +46,7 @@ body
     background-position: center;
     background-attachment: fixed; /* <-- Fija la imagen */
     height: 1200px;
-    width: 1200px;
+    width: 3600px;
     overflow: hidden;
 }
 
@@ -364,6 +364,7 @@ section article:hover
 {
     box-shadow: .5rem 0.5rem .6rem #364552;
 }
+
 
 
 
