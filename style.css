@@ -69,7 +69,7 @@ body
     color: #8c6c4a;
     font-family: Dancing script, 'Times New Roman', Times, serif;
     text-align: center;
-    font-size: 14px;
+    font-size: 40px;
 }
 .tiempo{
   box-shadow:0px 0px 2px;
@@ -363,4 +363,5 @@ section article:hover
 {
     box-shadow: .5rem 0.5rem .6rem #364552;
 }
+
 
