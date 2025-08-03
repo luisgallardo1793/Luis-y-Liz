@@ -32,10 +32,6 @@ body
   left: 00px;
   z-index: 10;
 }
-
-
-
-
 #title {
     position: relative;
     display: flex;
@@ -43,12 +39,20 @@ body
     justify-content: center;
     background-image: url('images/4.jpg');
     background-size: contain ;
+    background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed; /* <-- Fija la imagen */
     height: 1200px;
     overflow: hidden;
 }
-
+#title::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 85%, #ffffff 100%);
+    pointer-events: none;
+    z-index: 1;
+}
 
 #title > * {
   position: relative;
