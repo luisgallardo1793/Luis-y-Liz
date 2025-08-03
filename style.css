@@ -304,7 +304,7 @@ body
 }
 
 .nombres {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   display: block;
   margin: auto;
@@ -363,5 +363,6 @@ section article:hover
 {
     box-shadow: .5rem 0.5rem .6rem #364552;
 }
+
 
 
