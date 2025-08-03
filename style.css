@@ -277,6 +277,7 @@ body
   box-shadow: 0px 0px 8px;
 }
 .asis{
+  padding-top:200px;
   margin: 20px;
   padding: 40px;
   font-size: 36px;
@@ -364,6 +365,7 @@ section article:hover
 {
     box-shadow: .5rem 0.5rem .6rem #364552;
 }
+
 
 
 
