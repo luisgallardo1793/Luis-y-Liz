@@ -130,7 +130,7 @@ body
 .padres{
 
   padding-top: 20px;
-  font-size: 12px;
+  font-size: 36px;
   text-align: center;
   font-family: cinzel decorative;
   color: #8c6c4a;
@@ -143,10 +143,10 @@ body
   border-bottom-left-radius: 40px;
 }
 .novia h2{
-  font-size: 12px;
+  font-size: 36px;
 }
 .novia h3{
-  font-size: 14px;
+  font-size: 42px;
 }
 .novio{
   padding:40px;
@@ -156,10 +156,10 @@ body
   border-bottom-left-radius: 40px;
 }
 .novio h2{
-  font-size: 12px;
+  font-size: 36px;
 }
 .novio h3{
-  font-size: 14px;
+  font-size: 42px;
 }
 
 .lugares{
@@ -362,6 +362,7 @@ section article:hover
 {
     box-shadow: .5rem 0.5rem .6rem #364552;
 }
+
 
 
 
