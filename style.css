@@ -43,6 +43,7 @@ body
     justify-content: center;
     background-image: url('images/4.jpg');
     background-size: contain ;
+    background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed; /* <-- Fija la imagen */
     height: 3600px;
@@ -363,6 +364,7 @@ section article:hover
 {
     box-shadow: .5rem 0.5rem .6rem #364552;
 }
+
 
 
 
