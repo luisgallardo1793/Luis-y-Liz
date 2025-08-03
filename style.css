@@ -17,7 +17,7 @@ body
   height: 500px;
   position: absolute;
   top: 680px;  /* posición fija en píxeles dentro del contenedor relativo */
-  left: 220px;
+  left: 350px;
   z-index: 10;
 }
 .hoja2 {
@@ -363,3 +363,4 @@ section article:hover
 {
     box-shadow: .5rem 0.5rem .6rem #364552;
 }
+
