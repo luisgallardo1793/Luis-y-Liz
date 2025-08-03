@@ -32,7 +32,7 @@ body
   left: 00px;
   z-index: 10;
 }
-.hoja3 {
+/* .hoja3 {
   background-image: url('images/deco-2.png');
   background-size: contain;
   background-repeat: no-repeat;
@@ -43,7 +43,7 @@ body
   top: 2580px;  /* posición fija en píxeles dentro del contenedor relativo */
   left:25px;
   z-index: 10;
-}
+} */
 
 
 
@@ -374,3 +374,4 @@ section article:hover
 {
     box-shadow: .5rem 0.5rem .6rem #364552;
 }
+
