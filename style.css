@@ -42,7 +42,7 @@ body
   background-repeat: no-repeat;   /* ✅ No se repite */
   background-position: center;    /* ✅ Centrada */
   background-attachment: scroll;  /* ❌ Evita usar fixed en móviles */
-  height: 800px;                  /* ✅ Ajusta este valor según el alto que quieras */
+  height: 1200px;                  /* ✅ Ajusta este valor según el alto que quieras */
   overflow: hidden;
 }
 
@@ -361,6 +361,7 @@ section article:hover
 {
     box-shadow: .5rem 0.5rem .6rem #364552;
 }
+
 
 
 
