@@ -38,7 +38,7 @@ body
   align-items: center;
   justify-content: center;
   background-image: url('images/4.jpg');
-  background-size: contain;       /* ✅ Se ve completa */
+  background-size: cover;       /* ✅ Se ve completa */
   background-repeat: no-repeat;   /* ✅ No se repite */
   background-position: center;    /* ✅ Centrada */
   background-attachment: scroll;  /* ❌ Evita usar fixed en móviles */
@@ -361,6 +361,7 @@ section article:hover
 {
     box-shadow: .5rem 0.5rem .6rem #364552;
 }
+
 
 
 
