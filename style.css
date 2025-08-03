@@ -162,8 +162,8 @@ body
 }
 
 .lugares{
-  padding: 2px;
-  font-size: 12px;
+  padding-top: 200px;
+  font-size: 36px;
   text-align: center;
   font-family: cinzel decorative;
   color: #8c6c4a;
@@ -191,16 +191,18 @@ body
 }
 
 .galeria h2 {
+  padding-top:200px;
   font-family: cinzel decorative;
-  font-size: 18px;
+  font-size: 40px;
   margin-bottom: 20px;
   color: #8c6c4a;
 }
 
 .slider {
+    padding-top:200px;
   position: relative;
   width: 90%;
-  max-width: 700px;
+  max-width: 1600px;
   margin: auto;
   overflow: hidden;
   border-radius: 15px;
@@ -244,18 +246,18 @@ body
   right: 10px;
 }
 .vestimenta{
-  padding: 20px;
+  padding-top:200px;
   margin: 20px;
   font-family: cinzel decorative;
-  font-size: 12px;
+  font-size: 36px;
   color: #8c6c4a;
   text-align: center;
 }
 
 .regalos{
   margin: 20px;
-  padding: 20px;
-  font-size: 12px;
+  padding-top: 200px;
+  font-size: 36px;
   text-align: center;
   font-family: cinzel decorative;
   color: #8c6c4a;
@@ -276,7 +278,7 @@ body
 .asis{
   margin: 20px;
   padding: 20px;
-  font-size: 12px;
+  font-size: 36px;
   text-align: center;
   font-family: cinzel decorative;
   color: #8c6c4a;
@@ -361,6 +363,7 @@ section article:hover
 {
     box-shadow: .5rem 0.5rem .6rem #364552;
 }
+
 
 
 
