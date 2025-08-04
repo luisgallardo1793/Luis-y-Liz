@@ -173,7 +173,7 @@ body
 }
 .lugares a{
   border:3px solid #2a2a2a;
-  background-color: #af9477;
+  background-color: #dfc2a3;
   border-radius: 6px;
   padding: 40px;
   color: #2a2a2a;
@@ -270,7 +270,7 @@ body
 
 .regalos a{
   border:3px solid #2a2a2a;
-  background-color: #af9477;
+  background-color: #dfc2a3;
   border-radius: 6px;
   padding: 40px;
   color: #2a2a2a;
@@ -291,7 +291,7 @@ body
 }
 .asis a{
   border:3px solid #2a2a2a;
-  background-color: #af9477;
+  background-color: #dfc2a3;
   border-radius: 6px;
   padding: 40px;
   color: #2a2a2a;
@@ -363,5 +363,6 @@ section article:hover
 {
     box-shadow: .5rem 0.5rem .6rem #364552;
 }
+
 
 
