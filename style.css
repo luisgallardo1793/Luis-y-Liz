@@ -363,3 +363,10 @@ section article:hover
 {
     box-shadow: .5rem 0.5rem .6rem #364552;
 }
+footer
+{
+    margin:0;
+    padding:10px;
+    background-color: #ffffff;
+    background: linear-gradient(to top, #f9ecd9 0%, #ffffff 50%);
+}
