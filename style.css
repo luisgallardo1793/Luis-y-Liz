@@ -13,8 +13,8 @@ body
   background-image: url('images/hojas-2.png');
   background-size: contain;
   background-repeat: no-repeat;
-  width: 1000px;
-  height: 1000px;
+  width: 1500px;
+  height: 1500px;
   position: absolute;
   top: 1800px;  /* posición fija en píxeles dentro del contenedor relativo */
   left: 500px;
@@ -360,6 +360,7 @@ section article:hover
 {
     box-shadow: .5rem 0.5rem .6rem #364552;
 }
+
 
 
 
