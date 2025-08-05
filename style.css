@@ -32,6 +32,18 @@ body
   left: 0px;
   z-index: 10;
 } 
+.hoja3 {
+  background-image: url('images/hojas-1.png');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  opacity: .2;
+  width: 100vw;
+  height: 1700px;
+  position: absolute;
+  top: 8000px;  /* posición fija en píxeles dentro del contenedor relativo */
+  left: 0px;
+  z-index: 10;
+} 
 #title {
   position: relative;
   display: flex;
@@ -360,6 +372,7 @@ section article:hover
 {
     box-shadow: .5rem 0.5rem .6rem #364552;
 }
+
 
 
 
