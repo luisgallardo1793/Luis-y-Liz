@@ -22,6 +22,21 @@ body
 }
 .hoja2 {
   background-image: url('images/hojas-1.png');
+  background-size: 100% auto;      /* ✅ ajusta horizontalmente sin deformar */
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.2;
+  
+  width: 100vw;                    /* ✅ ocupa todo el ancho de la ventana */
+  height: 1000px;                  /* ⬅️ ajusta este alto como prefieras */
+  position: absolute;
+  top: 3800px;
+  left: 0;
+  z-index: 10;
+  pointer-events: none;            /* ⬅️ opcional: deja que elementos pasen por encima */
+}
+/* .hoja2 {
+  background-image: url('images/hojas-1.png');
   background-size: contain;
   background-repeat: no-repeat;
   opacity: .2;
@@ -31,7 +46,7 @@ body
   top: 3800px;  /* posición fija en píxeles dentro del contenedor relativo */
   left: 0px;
   z-index: 10;
-}
+} */
 #title {
   position: relative;
   display: flex;
