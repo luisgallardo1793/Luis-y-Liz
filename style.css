@@ -40,7 +40,7 @@ body
   width: 100vw;
   height: 1700px;
   position: absolute;
-  top: 14000px;  /* posición fija en píxeles dentro del contenedor relativo */
+  top: 12000px;  /* posición fija en píxeles dentro del contenedor relativo */
   left: 0px;
   z-index: 10;
 } 
@@ -371,6 +371,7 @@ section article:hover
 {
     box-shadow: .5rem 0.5rem .6rem #364552;
 }
+
 
 
 
