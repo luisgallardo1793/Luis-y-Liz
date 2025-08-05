@@ -114,6 +114,7 @@
     </section>
     <footer>
     </footer>
+    <div id="rotate-warning">Por favor, gira tu celular a modo vertical 📱</div>
     <div class="hoja1"></div>
     <div class="hoja2"></div>
     <div class="hoja3"></div>
@@ -171,9 +172,19 @@
 
         window.addEventListener("resize", updateSlider);
     </script>
+    <script>
+        function checkOrientation() {
+          const isLandscape = window.innerWidth > window.innerHeight;
+          document.getElementById('rotate-warning').style.display = isLandscape ? 'flex' : 'none';
+        }
+        window.addEventListener('resize', checkOrientation);
+        window.addEventListener('orientationchange', checkOrientation);
+        window.addEventListener('load', checkOrientation);
+    </script>
 </body>
 
 </html>
+
 
 
 
