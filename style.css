@@ -13,6 +13,7 @@ body
   background-image: url('images/hojas-2.png');
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;  
   width: 100vw;
   height: 50vh;
   position: absolute;
@@ -372,6 +373,7 @@ section article:hover
 {
     box-shadow: .5rem 0.5rem .6rem #364552;
 }
+
 
 
 
