@@ -22,7 +22,7 @@ body
 }
 .hoja2 {
   background-image: url('images/hojas-1.png');
-  background-size: contain;
+  background-size: 100% auto;
   background-repeat: no-repeat;
   opacity: .2;
   width: 1400px;
@@ -360,6 +360,7 @@ section article:hover
 {
     box-shadow: .5rem 0.5rem .6rem #364552;
 }
+
 
 
 
